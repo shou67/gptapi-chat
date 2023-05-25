@@ -71,7 +71,7 @@ const Chat = ({ content, role }: Message) => {
               as="small"
               fontWeight={500}
             >
-              ロリス
+              GPT先生
             </Flex>
           )}
           {role === "user" && (

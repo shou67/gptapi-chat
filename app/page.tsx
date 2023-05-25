@@ -53,7 +53,7 @@ const Home: NextPage = () => {
   };
 
   return (
-    <div className="w-full max-w-2xl bg-white md:rounded-lg md:shadow-md p-4 md:p-10 my-10">
+    <div className="w-full max-w-2xl bg-purple-500 md:rounded-lg md:shadow-md p-4 md:p-10 my-10">
       <div className="mb-10">
         <AnimatePresence>
           {chats.slice(1, chats.length).map((chat, index) => {
