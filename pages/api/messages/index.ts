@@ -27,7 +27,7 @@ export default async function handler(
       model: "gpt-3.5-turbo",
       messages: message,
       temperature: 0.9,
-      max_tokens: 100,
+      max_tokens: 1000,
     });
     res.status(200).json({ result: completion.data.choices[0].message });
   } catch (error: any) {
